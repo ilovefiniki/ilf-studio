@@ -1,4 +1,4 @@
-# finance
+# ilf studio
 
 ## Project setup
 ```
