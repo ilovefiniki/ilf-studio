@@ -2,15 +2,17 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import firebase from 'firebase/app'
+//import firebase from 'firebase/app'
 import vuetify from './plugins/vuetify'
 //import axios from 'axios'
 
-import 'firebase/auth';
-import 'firebase/database';
+import './styles/style.css'
+
+//import 'firebase/auth';
+//import 'firebase/database';
 
 Vue.config.productionTip = false
-
+/*
 firebase.initializeApp({
   apiKey: "AIzaSyC4XQ_idhY7y3SlXJrwKyCAYFY2gIX0cD0",
   authDomain: "finiki-finance.firebaseapp.com",
@@ -34,3 +36,12 @@ firebase.auth().onAuthStateChanged(() => {
     //Vue.prototype.$axios() = axios;
   }
 })
+
+ */
+
+new Vue({
+  router,
+  store,
+  vuetify,
+  render: h => h(App),
+}).$mount('#app')
