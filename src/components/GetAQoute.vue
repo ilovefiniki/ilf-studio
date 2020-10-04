@@ -8,7 +8,7 @@
                 </v-col>
 
                 <v-col>
-                    <v-btn outlined color="white" dark>Get a quote</v-btn>
+                    <Form/>
                 </v-col>
 
             </v-row>
@@ -19,6 +19,10 @@
 
 </style>
 <script>
+    import Form from '@/components/Form'
     export default {
+        components: {
+            Form
+        },
     }
 </script>
