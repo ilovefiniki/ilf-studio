@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="font-weight-light" align="center">Portfolio</h2>
+        <h2  id="portfolio" class="font-weight-light" align="center">Portfolio</h2>
         <v-row>
             <v-carousel
                     cycle

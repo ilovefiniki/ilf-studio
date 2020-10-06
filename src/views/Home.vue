@@ -20,7 +20,7 @@
 
         <Advantages/>
 
-        <GreatDeals/>
+        <Contacts/>
 
     </v-sheet>
 </template>
@@ -35,7 +35,7 @@ import Portfolio from '@/components/Portfolio'
 import HowWeWorks from '@/components/HowWeWorks'
 import GetAQoute from '@/components/GetAQoute'
 import Advantages from '@/components/Advantages'
-import GreatDeals from '@/components/GreatDeals'
+import Contacts from '@/components/Contacts'
 
 export default {
     name: 'Home',
@@ -47,7 +47,7 @@ export default {
         Portfolio,
         Reviews,
         Services,
-        GreatDeals
+        Contacts
     },
     mounted() {
 

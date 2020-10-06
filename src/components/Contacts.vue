@@ -1,5 +1,5 @@
 <template>
-    <div class="purple lighten-5">
+    <div id="contacts" class="purple lighten-5">
         <v-container>
             <v-row>
                 <v-col align="center">

@@ -10,12 +10,12 @@
 
                 <v-col align="center">
                     <v-icon large color="deep-purple darken-4">mdi-calculator</v-icon>
-                    <h3 class="font-weight-light">Get exact final quete</h3>
+                    <h3 class="font-weight-light">Get exact final quote</h3>
                 </v-col>
 
                 <v-col align="center">
                     <v-icon large color="deep-purple darken-4">mdi-flag-checkered</v-icon>
-                    <h3 class="font-weight-light">Get great resalt</h3>
+                    <h3 class="font-weight-light">Get great result</h3>
                 </v-col>
 
             </v-row>

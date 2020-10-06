@@ -16,7 +16,7 @@
                     Get A Quote
                 </v-btn>
             </template>
-            <v-form data-netlify="true">
+            <v-form @submit.prevent="sendEmail">
             <v-card>
                 <v-card-title>
                     <span class="headline">Get A Quote</span>
@@ -31,6 +31,7 @@
                                         label="Name*"
                                         required
                                         v-model="name"
+                                        name="name"
                                 ></v-text-field>
                             </v-col>
 
@@ -39,6 +40,7 @@
                                         label="Email*"
                                         required
                                         v-model="email"
+                                        name="email"
                                 ></v-text-field>
                             </v-col>
                             <v-col cols="12">
@@ -46,6 +48,7 @@
                                         autocomplete="Your message or question"
                                         label="Message"
                                         v-model="text"
+                                        name="text"
                                 ></v-textarea>
                             </v-col>
 
@@ -75,19 +78,35 @@
             </v-card>
             </v-form>
         </v-dialog>
+        <Success v-bind:dialog="successDialog"/>
     </v-row>
 </template>
 
 <script>
-    export default {
-        data: () => ({
-            dialog: false,
-            name: '',
-            email: '',
-            text: '',
-        }),
-        methods: {
+    import Success from '@/components/Success'
+    import emailjs from 'emailjs-com'
 
+    export default {
+        components: {Success},
+        data() {
+            return {
+                dialog: false,
+                successDialog: false,
+                name: '',
+                email: '',
+                text: '',
+            }
+        },
+        methods: {
+            sendEmail(e) {
+                emailjs.sendForm('gmail_ilovefiniki.com', 'template_ilf', e.target, 'user_1wFOQcBGOSgKskuCDU6r1')
+                    .then((result) => {
+                        this.successDialog = true
+                        console.log('SUCCESS!', result.status, result.text);
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            }
         }
     }
 </script>

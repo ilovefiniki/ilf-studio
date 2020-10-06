@@ -1,7 +1,7 @@
 <template>
     <div class="blue-grey lighten-5">
         <v-container>
-            <h2 class="font-weight-light" align="center">Services</h2>
+            <h2  id="services" class="font-weight-light" align="center">Services</h2>
             <v-row>
                 <v-col align="center">
                     <v-icon large color="deep-purple darken-4">mdi-developer-board</v-icon>

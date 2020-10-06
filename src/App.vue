@@ -12,23 +12,34 @@
 
         <v-spacer></v-spacer>
 
-        <v-btn text>
+        <v-btn
+                text
+                href="#"
+        >
           Home
         </v-btn>
-
-        <v-btn text>
+        <v-btn
+                text
+                href="#services"
+        >
           Services
         </v-btn>
-
-        <v-btn text>
+        <v-btn
+                text
+                href="#portfolio"
+        >
           Portfolio
         </v-btn>
-
-        <v-btn text>
+        <v-btn
+                text
+                href="#reviews"
+        >
           Reviews
         </v-btn>
-
-        <v-btn text>
+        <v-btn
+                text
+                href="#contacts"
+        >
           Contacts
         </v-btn>
 
