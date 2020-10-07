@@ -47,10 +47,10 @@
 
       <router-view/>
 
-        <v-footer>
-          <div>ILOVEFINIKI</div>
+        <v-footer class="black py-10">
+          <div class="white--text">ILOVEFINIKI</div>
           <v-spacer></v-spacer>
-          <div>&copy; {{ new Date().getFullYear() }}</div>
+          <div class="white--text">&copy; {{ new Date().getFullYear() }}</div>
         </v-footer>
     </v-card>
   </v-app>

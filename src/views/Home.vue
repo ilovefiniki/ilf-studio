@@ -8,7 +8,7 @@
 
         <Services/>
 
-        <Portfolio/>
+       <!-- <Portfolio/>-->
 
         <GetAQoute/>
 
@@ -31,7 +31,7 @@
 import Banner from '@/components/Banner'
 import Services from '@/components/Services'
 import Reviews from '@/components/Reviews'
-import Portfolio from '@/components/Portfolio'
+//import Portfolio from '@/components/Portfolio'
 import HowWeWorks from '@/components/HowWeWorks'
 import GetAQoute from '@/components/GetAQoute'
 import Advantages from '@/components/Advantages'
@@ -44,7 +44,7 @@ export default {
         Advantages,
         GetAQoute,
         HowWeWorks,
-        Portfolio,
+        //Portfolio,
         Reviews,
         Services,
         Contacts

@@ -1,14 +1,14 @@
 <template>
-    <div class="deep-purple darken-4">
+    <div class="indigo darken-1 py-15">
         <v-container>
 
             <v-row>
                 <v-col>
-                    <h3 align="center" class="font-weight-light white--text">Ready to get started</h3>
+                    <h2 align="center" class="font-weight-black white--text">Ready to get started</h2>
                 </v-col>
 
                 <v-col>
-                    <Form/>
+                    <div class="text-center"><Form/></div>
                 </v-col>
 
             </v-row>

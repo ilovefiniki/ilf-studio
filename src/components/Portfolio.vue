@@ -15,7 +15,7 @@
                         </v-col>
 
                         <v-col>
-                            <p class="deep-purple--text">Description<br/>
+                            <p class="black--text">Description<br/>
                                 If the provided aspect ratio doesn't match that of the actual image, the default behavior is to fill as much space as possible, clipping the sides of the image. Enabling the contain prop will prevent this, but will result in empty space at the sides.</p>
                         </v-col>
                     </v-row>
@@ -28,7 +28,7 @@
                         </v-col>
 
                         <v-col>
-                            <p class="deep-purple--text">Description 2<br/>
+                            <p class="black--text">Description 2<br/>
                                 If the provided aspect ratio doesn't match that of the actual image, the default behavior is to fill as much space as possible, clipping the sides of the image. Enabling the contain prop will prevent this, but will result in empty space at the sides.</p>
                         </v-col>
                     </v-row>
