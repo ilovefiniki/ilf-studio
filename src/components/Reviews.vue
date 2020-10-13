@@ -17,7 +17,7 @@
                         >
                             mdi-link-variant
                         </v-icon>
-                        <span class="font-weight-light">filament.by</span>
+                        <span class="font-weight-light">Review from filament.by</span>
                     </v-card-title>
 
                     <v-card-text>
@@ -55,7 +55,7 @@
                         >
                             mdi-link-variant
                         </v-icon>
-                        <span class="font-weight-light">zeikko.com</span>
+                        <span class="font-weight-light">Review from zeikko.com</span>
                     </v-card-title>
 
                     <v-card-text>
@@ -93,7 +93,7 @@
                         >
                             mdi-link-variant
                         </v-icon>
-                        <span class="font-weight-light">great-voices.com</span>
+                        <span class="font-weight-light">Review from great-voices.com</span>
                     </v-card-title>
 
                     <v-card-text>

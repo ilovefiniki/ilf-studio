@@ -4,10 +4,7 @@
 
             <v-row>
                 <v-col>
-                    <h2 align="center" class="font-weight-black white--text">Ready to get started</h2>
-                </v-col>
-
-                <v-col>
+                    <h2 align="center" class="font-weight-black white--text">Ready to get started?</h2>
                     <div class="text-center"><Form/></div>
                 </v-col>
 

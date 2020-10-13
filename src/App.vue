@@ -8,7 +8,7 @@
               scroll-target="#scrolling-techniques-7"
       >
 
-        <v-toolbar-title>ILOVEFINIKI</v-toolbar-title>
+        <v-toolbar-title>I <i class="far fa-heart indigo--text"></i> FINIKI</v-toolbar-title>
 
         <v-spacer></v-spacer>
 

@@ -1,5 +1,5 @@
 <template>
-    <v-row justify="center">
+    <div class="pa-3">
         <v-dialog
                 v-model="dialog"
                 persistent
@@ -7,9 +7,7 @@
         >
             <template v-slot:activator="{ on, attrs }">
                 <v-btn
-                        outlined
                         color="white"
-                        dark
                         v-bind="attrs"
                         v-on="on"
                 >
@@ -17,9 +15,9 @@
                 </v-btn>
             </template>
             <v-form @submit.prevent="sendEmail">
-            <v-card>
+            <v-card class="pa-15">
                 <v-card-title>
-                    <span class="headline">Get A Quote</span>
+                    <span class="headline font-weight-black">Get A Quote</span>
                 </v-card-title>
                 <v-card-text>
                     <v-container>
@@ -59,7 +57,7 @@
                 <v-card-actions>
                     <v-spacer></v-spacer>
                     <v-btn
-                            color="blue darken-1"
+                            color="indigo darken-1"
                             text
                             outlined
                             @click="dialog = false"
@@ -67,7 +65,7 @@
                         Close
                     </v-btn>
                     <v-btn
-                            color="blue darken-1"
+                            color="indigo darken-1"
                             class="white--text"
                             @click="dialog = false"
                             type="submit"
@@ -79,7 +77,7 @@
             </v-form>
         </v-dialog>
         <Success v-bind:dialog="successDialog"/>
-    </v-row>
+    </div>
 </template>
 
 <script>

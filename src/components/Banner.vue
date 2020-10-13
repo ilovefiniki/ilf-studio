@@ -1,7 +1,8 @@
 <template>
         <v-parallax
                 dark
-                src="finikimainpage.jpg"
+                height="600"
+                src="finikimainpage1.png"
         >
             <v-row
                     align="center"
@@ -15,7 +16,10 @@
 </template>
 <style>
     .v-parallax__content {
-        background: #0000006b;
+       /* background: #0000006b;*/
+    }
+    .v-parallax__image {
+        /*max-width: 100%;*/
     }
 </style>
 <script>
