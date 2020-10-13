@@ -2,7 +2,7 @@
         <v-parallax
                 dark
                 height="600"
-                src="finikimainpage1.png"
+                src="finikimainpage.png"
         >
             <v-row
                     align="center"
