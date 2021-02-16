@@ -26,12 +26,6 @@
         </v-btn>
         <v-btn
                 text
-                href="#portfolio"
-        >
-          Portfolio
-        </v-btn>
-        <v-btn
-                text
                 href="#reviews"
         >
           Reviews
